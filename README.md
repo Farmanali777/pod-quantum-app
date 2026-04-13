@@ -50,5 +50,7 @@ kubectl exec -it quantum-app -- sh
 # Port forward to access the app
 kubectl port-forward --address 0.0.0.0 pod/quantum-app 8001:8000
 
+<img width="1006" height="591" alt="image" src="https://github.com/user-attachments/assets/ae35f8c9-c624-4c93-9dec-4a26ad637589" />
+
 # Delete pod (if needed)
 kubectl delete pod quantum-app
